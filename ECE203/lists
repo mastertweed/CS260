@@ -1,0 +1,57 @@
+M = 1000
+n = 5
+p = 0.95
+
+Money = M*(1+(p/100))**n
+print(Money)
+
+# -----------------
+
+from math import sin, cos, pi
+
+x = pi/4
+val = sin(x)**2 + cos(x)**2
+print(val)
+
+# -----------------
+
+v0 = 3 # m/s
+t = 1 # s
+a = 2 #m/s^2
+d = v0*t + 0.5*a*t**2
+print(d)
+
+# -----------------
+
+a = 3
+b = 5
+a2 = a**2
+b2 = b**2
+
+eq1_sum = a2 + 2*a*b +b2
+eq2_sum = a2 - 2*a*b +b2
+
+eq1_pow = (a+b)**2
+eq2_pow = (a-b)**2
+
+print('1rst equation %d = %d' % (eq1_sum,eq1_pow))
+print('2nd equation %d = %d' % (eq2_sum, eq2_pow))
+
+# -----------------
+
+import math
+
+a = 7
+b = 26
+c = 3
+
+q = math .sqrt(b*b - 4*a*c)
+
+x1 = (-b + q)/(2*a)
+x2 = (-b - q)/(2*a)
+
+print('x1 = %g '
+      'x2 = %g' % (x1, x2))
+
+# -----------------
+
